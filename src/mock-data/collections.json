@@ -1,0 +1,237 @@
+[
+    {
+        "id": "77ccba49-863a-4d0a-9fc5-19a2da83a997",
+        "title": "Gardening",
+        "URL": "/collections/Gardening"
+    },
+    {
+        "id": "85fbe2f0-26d2-49ef-8a3b-a255243174b7",
+        "title": "Baby",
+        "URL": "/collections/Baby"
+    },
+    {
+        "id": "46458615-a47f-4d6f-94ea-9a1736ee9ceb",
+        "title": "Skin Care",
+        "URL": "/collections/SkinCare"
+    },
+    {
+        "id": "fc00eb4c-af30-47a1-a093-527791ed7275",
+        "title": "Medicine",
+        "URL": "/collections/Medicine"
+    },
+    {
+        "id": "32175f60-f33d-4176-b6a0-10a9df96feaf",
+        "title": "Mens",
+        "URL": "/collections/Mens"
+    },
+    {
+        "id": "66bf7b9a-4185-4027-85e0-cdfbf94b1cf6",
+        "title": "Womens",
+        "URL": "/collections/Womens"
+    },
+    {
+        "id": "5faca462-6359-4b3b-86f5-27f75215261d",
+        "title": "Outdoors",
+        "URL": "/collections/Outdoors"
+    },
+    {
+        "id": "e22372b4-b292-47cd-bbfb-575c494f63a7",
+        "title": "Personal",
+        "URL": "/collections/Personal"
+    },
+    {
+        "id": "a7297fe7-6029-4975-affc-6593228a9e1e",
+        "title": "Toy",
+        "URL": "/collections/Toy"
+    },
+    {
+        "id": "295aec5c-334c-42a1-8a2c-b38c4478fbba",
+        "title": "Dog",
+        "URL": "/collections/Dog"
+    },
+    {
+        "id": "66ee759b-4ad2-46d5-ab2d-4aeed63dd165",
+        "title": "Party",
+        "URL": "/collections/Party"
+    },
+    {
+        "id": "d45dadfc-3b31-422b-b5f0-37c74fe06360",
+        "title": "Biking",
+        "URL": "/collections/Biking"
+    },
+    {
+        "id": "d4f51e79-9b89-46d5-846a-b4ef68229c16",
+        "title": "Engine",
+        "URL": "/collections/Engine"
+    },
+    {
+        "id": "1fdb8127-75ea-48d0-8358-db146514d5a9",
+        "title": "Cooking",
+        "URL": "/collections/Cooking"
+    },
+    {
+        "id": "881755fa-c0c0-4a96-80de-9bcc174253d0",
+        "title": "Game",
+        "URL": "/collections/Game"
+    },
+    {
+        "id": "8583cc8f-298b-457a-8123-bcf14efd6bf9",
+        "title": "Cleaning",
+        "URL": "/collections/Cleaning"
+    },
+    {
+        "id": "517fe7f8-622b-49fd-8caa-1ae8fb35c91d",
+        "title": "Makeup",
+        "URL": "/collections/Makeup"
+    },
+    {
+        "id": "f8f36c0b-a166-4050-b646-8f8b38ecf105",
+        "title": "Phone",
+        "URL": "/collections/Phone"
+    },
+    {
+        "id": "00304a1e-9021-4dbb-ad84-4fc54ac96c1d",
+        "title": "Vitamin",
+        "URL": "/collections/Vitamin"
+    },
+    {
+        "id": "bd3ed846-0556-40b3-b41f-e4b5864d480f",
+        "title": "Hair Care",
+        "URL": "/collections/HairCare"
+    },
+    {
+        "id": "ade83909-ccb0-40e9-a76e-1b70c9c1fb80",
+        "title": "Nutrition",
+        "URL": "/collections/Nutrition"
+    },
+    {
+        "id": "f2dc9660-7c37-4013-a4e1-e2e372032929",
+        "title": "Camping",
+        "URL": "/collections/Camping"
+    },
+    {
+        "id": "759496e9-dcf4-4841-8e7a-2141d82d06ee",
+        "title": "Jewelry",
+        "URL": "/collections/Jewelry"
+    },
+    {
+        "id": "bb3a4544-c695-42cc-92b0-3f2b93f5b944",
+        "title": "Bedding",
+        "URL": "/collections/Bedding"
+    },
+    {
+        "id": "e3a7bc95-8df7-4c1e-bb85-968009f031bd",
+        "title": "Sports",
+        "URL": "/collections/Sports"
+    },
+    {
+        "id": "1b47a3ca-c331-4d03-a16a-8f07646cae54",
+        "title": "Camera",
+        "URL": "/collections/Camera"
+    },
+    {
+        "id": "126d655c-73f9-4a29-a4eb-4014de6b8a93",
+        "title": "Tire",
+        "URL": "/collections/Tire"
+    },
+    {
+        "id": "df9d5940-59c8-4596-a0dd-ca375c5a17ff",
+        "title": "Fitness",
+        "URL": "/collections/Fitness"
+    },
+    {
+        "id": "db61532d-412f-4e2b-88fd-3e7d6867a745",
+        "title": "Furniture",
+        "URL": "/collections/Furniture"
+    },
+    {
+        "id": "c484520a-8ab4-46db-a568-968904609498",
+        "title": "Kitchen",
+        "URL": "/collections/Kitchen"
+    },
+    {
+        "id": "a427dfb5-02cb-44ca-9582-6f1ea6382af3",
+        "title": "Bath",
+        "URL": "/collections/Bath"
+    },
+    {
+        "id": "86fc84bd-f028-4c84-b9b8-e256b062c4ec",
+        "title": "Storage",
+        "URL": "/collections/Storage"
+    },
+    {
+        "id": "ae4f3cb5-40a0-403b-85ae-b07d99ca831e",
+        "title": "Beach",
+        "URL": "/collections/Beach"
+    },
+    {
+        "id": "36725857-3f62-4213-b105-e0519c959a3f",
+        "title": "Swimming",
+        "URL": "/collections/Swimming"
+    },
+    {
+        "id": "fd70428e-b514-4f93-b751-d5df3042682f",
+        "title": "Car",
+        "URL": "/collections/Car"
+    },
+    {
+        "id": "93f43b7e-ef8a-4ace-80d5-8a5937e849a1",
+        "title": "Home Improvement",
+        "URL": "/collections/HomeImprovement"
+    },
+    {
+        "id": "9579b318-e8cb-4d09-9975-f6fb6668556c",
+        "title": "Movie",
+        "URL": "/collections/Movie"
+    },
+    {
+        "id": "c9e40aa1-ef18-4629-826b-01d7ea8edf93",
+        "title": "Cat",
+        "URL": "/collections/Cat"
+    },
+    {
+        "id": "160fc051-0377-4e2a-b387-e54cf9120f7f",
+        "title": "Book",
+        "URL": "/collections/Book"
+    },
+    {
+        "id": "1a36179f-1990-4fe9-8c71-8985906daa60",
+        "title": "Music",
+        "URL": "/collections/Music"
+    },
+    {
+        "id": "a0fd0542-5fc5-47a4-9249-27673b78d705",
+        "title": "Computer",
+        "URL": "/collections/Computer"
+    },
+    {
+        "id": "e9c1f66d-dd0b-49f2-8736-dd064d1f0f34",
+        "title": "Kids",
+        "URL": "/collections/Kids"
+    },
+    {
+        "id": "9abfdf95-6294-408f-afc3-04b6f5b36ce8",
+        "title": "Truck",
+        "URL": "/collections/Truck"
+    },
+    {
+        "id": "407743ca-579c-4f1c-a854-45876caa511b",
+        "title": "Technology",
+        "URL": "/collections/Technology"
+    },
+    {
+        "id": "f37da840-984a-4d33-8187-679234d7d21b",
+        "title": "Aquarium",
+        "URL": "/collections/Aquarium"
+    },
+    {
+        "id": "66726742-0fcc-4075-ac58-763e814f32fd",
+        "title": "First Aid",
+        "URL": "/collections/FirstAid"
+    },
+    {
+        "id": "9755d550-83b8-4cb6-bef5-3e73bce73ec5",
+        "title": "Dining",
+        "URL": "/collections/Dining"
+    }
+]
