@@ -7,7 +7,7 @@ const ProductItem = ({ product }) => {
         <div className="product-item">
           <div className="product-item--image">
             <img
-              src={product.image}
+              src={`https://source.unsplash.com/random/200x200?${product.id}`}
               alt={product.title}
             />
           </div>
