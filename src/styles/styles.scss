@@ -7,11 +7,14 @@
 @import "./base/common";
 @import "./base/utilities.scss";
 
+//Widgets
+@import '../auto-suggestions-search-widget/SearchWidget/style';
+@import '../auto-suggestions-search-widget/SearchWidgetSetting/style';
+
 //Component
-@import '../components/SearchWidget/components/style';
 @import '../components/Header/style';
 @import '../components/SearchInput/style';
-@import '../components//SearchWidgetSetting/style';
+
 
 //pages
 @import '../pages/style';

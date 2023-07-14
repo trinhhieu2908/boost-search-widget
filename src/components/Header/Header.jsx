@@ -1,11 +1,12 @@
 import { useState } from "react";
 import SearchInput from "../SearchInput/SearchInput";
+import SearchWidget from "../../auto-suggestions-search-widget/SearchWidget/SearchWidget";
 
 const Header = () => {
-  const [headerSearchValue, setHeaderSearchValue] = useState("");
+  const [searchValue, setSearchValue] = useState("");
 
-  const onSearchHeader = (event) => {
-    setHeaderSearchValue(event.target.value);
+  const onSearch = (event) => {
+    setSearchValue(event.target.value);
   };
 
   return (
@@ -17,9 +18,14 @@ const Header = () => {
         />
         <SearchInput
           className="search-header"
-          id="header-search"
-          onChange={onSearchHeader}
+          id="app-search-input"
+          onChange={onSearch}
           placeholder="Search on header"
+        />
+        <SearchWidget
+          inputId="app-search-input"
+          widgetId="app-search-widget"
+          searchString={searchValue}
         />
       </div>
     </div>

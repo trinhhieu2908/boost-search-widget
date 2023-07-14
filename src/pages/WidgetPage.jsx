@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 
 import SearchInput from "../components/SearchInput/SearchInput";
-import SearchWidget from "../components/SearchWidget/components/SearchWidget";
+import SearchWidget from "../auto-suggestions-search-widget/SearchWidget/SearchWidget";
 import { mainWidget } from "../constants/element-id";
-import { positionStyle } from "../components/SearchWidget/utils/constants/widgetPosition";
+import { positionStyle } from "../auto-suggestions-search-widget/SearchWidget/utils/constants/widgetPosition";
 
 const WidgetPage = () => {
   const [mainSearchValue, setMainSearchValue] = useState("");

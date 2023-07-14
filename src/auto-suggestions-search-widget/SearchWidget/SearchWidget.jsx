@@ -1,16 +1,17 @@
-import WidgetCollection from "./WidgetCollection/WidgetCollection";
-import WidgetProduct from "./WidgetProduct/WidgetProduct";
-import WidgetSuggestion from "./WidgetSuggestion/WidgetSuggestion";
-import { useGetSuggestionResult } from "../hooks/useGetSuggestionResult";
+import WidgetCollection from "./components/WidgetCollection/WidgetCollection";
+import WidgetProduct from "./components/WidgetProduct/WidgetProduct";
+import WidgetSuggestion from "./components/WidgetSuggestion/WidgetSuggestion";
+import { useGetSuggestionResult } from "./hooks/useGetSuggestionResult";
 import { useSelector } from "react-redux";
-import { settingsSelectors } from "../../../redux/settings/selector";
+import { settingsSelectors } from "../../redux/settings/selector";
 import {
   onDisplaySearchWidget,
   onHideSearchWidget,
-} from "../utils/functions/displayFunction";
+} from "./utils/functions/displayFunction";
 import { useEffect } from "react";
+import { positionStyle } from "./utils/constants/widgetPosition";
 
-const SearchWidget = ({ inputId, widgetId, position, searchString }) => {
+const SearchWidget = ({ inputId, widgetId, position = positionStyle.Left, searchString }) => {
   const { data, error } = useGetSuggestionResult(searchString);
   const isSuggestionDisplay = useSelector(
     settingsSelectors.getIsSuggestionDisplay
