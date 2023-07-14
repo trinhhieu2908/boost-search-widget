@@ -8,6 +8,7 @@
 @import "./base/utilities.scss";
 
 //Component
-@import '../components/SearchWidget/style';
+@import '../components/SearchWidget/components/style';
 @import '../components/Header/style';
 @import '../components/SearchInput/style';
+@import '../components//SearchWidgetSetting/style';

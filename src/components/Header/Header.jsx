@@ -1,12 +1,13 @@
 import { useState } from "react";
 import SearchInput from "../SearchInput/SearchInput";
-import SearchWidget from "../SearchWidget/SearchWidget";
+import SearchWidget from "../SearchWidget/components/SearchWidget";
 
 const Header = () => {
-  const [mainSearchValue, setMainSearchValue] = useState("");
+  const [headerSearchValue, setHeaderSearchValue] = useState("");
 
   const onSearchHeader = (event) => {
     console.log(event.target.value);
+    setHeaderSearchValue(event.target.value);
   };
 
   const onFocusSearch = () => {
@@ -46,7 +47,6 @@ const Header = () => {
           onBlur={onFocusOutSearch}
           onChange={onSearchHeader}
         />
-        <SearchWidget id="header-search-widget" />
       </div>
     </div>
   );
