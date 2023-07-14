@@ -5,6 +5,7 @@ import store from "./configs/configureStore";
 
 import WidgetPage from "./pages/widgetPage";
 import Header from "./components/Header/Header";
+import SearchWidgetSetting from "./components/SearchWidgetSetting/SearchWidgetSetting";
 
 const queryClient = new QueryClient();
 
@@ -14,6 +15,7 @@ function App() {
       <ReduxProvider store={store}>
         <Header />
         <WidgetPage />
+        <SearchWidgetSetting />
       </ReduxProvider>
     </QueryClientProvider>
   );

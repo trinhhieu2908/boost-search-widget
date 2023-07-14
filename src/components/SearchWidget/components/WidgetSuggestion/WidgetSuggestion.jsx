@@ -1,5 +1,5 @@
 import React from "react";
-import { checkUndefined } from "../../utils/checkUndefined";
+import { checkUndefined } from "../../utils/functions/checkUndefined";
 
 const WidgetSuggestion = ({ data, searchString }) => {
   const listSuggestions = data.map((item) => {

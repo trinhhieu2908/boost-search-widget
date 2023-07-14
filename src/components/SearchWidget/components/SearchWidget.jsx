@@ -4,8 +4,13 @@ import WidgetSuggestion from "./WidgetSuggestion/WidgetSuggestion";
 import { useGetSuggestionResult } from "../hooks/useGetSuggestionResult";
 import { useSelector } from "react-redux";
 import { settingsSelectors } from "../../../redux/settings/selector";
+import {
+  onDisplaySearchWidget,
+  onHideSearchWidget,
+} from "../utils/functions/displayFunction";
+import { useEffect } from "react";
 
-const SearchWidget = ({ id, searchString }) => {
+const SearchWidget = ({ inputId, widgetId, position, searchString }) => {
   const { data, error } = useGetSuggestionResult(searchString);
   const isSuggestionDisplay = useSelector(
     settingsSelectors.getIsSuggestionDisplay
@@ -14,6 +19,15 @@ const SearchWidget = ({ id, searchString }) => {
     settingsSelectors.getIsCollectionDisplay
   );
   const isProductDisplay = useSelector(settingsSelectors.getIsProductDisplay);
+  const numberOfCharacter = useSelector(settingsSelectors.getNumberOfCharacter);
+
+  useEffect(() => {
+    if (searchString.length >= numberOfCharacter.value) {
+      onDisplaySearchWidget(inputId, widgetId, position);
+    } else {
+      onHideSearchWidget(widgetId);
+    }
+  }, [searchString, numberOfCharacter]);
 
   let content = (
     <div className="search-group">
@@ -37,7 +51,7 @@ const SearchWidget = ({ id, searchString }) => {
   }
 
   return (
-    <div id={id} className="search-widget">
+    <div id={widgetId} className="search-widget">
       <div className="search-widget-content">
         {content}
         <div className="view-all">View all products</div>

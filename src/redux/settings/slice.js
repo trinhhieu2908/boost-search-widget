@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 export const initialState = {
-  isSuggestionDisplay: false,
+  isSuggestionDisplay: true,
   isCollectionDisplay: true,
   isProductDisplay: true,
   numberOfCharacter: { value: 1, label: "1 character" },

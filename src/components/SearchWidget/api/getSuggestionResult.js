@@ -1,4 +1,4 @@
-import { findProducts, findSuggestion } from "../utils/findSuggestion";
+import { findProducts, findSuggestion } from "../utils/functions/findSuggestion";
 
 export const getSuggestionResult = async (search) => {
   const data = await fetch(
