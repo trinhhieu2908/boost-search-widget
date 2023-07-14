@@ -1,13 +1,13 @@
 import React from "react";
 
-const ProductItem = ({ product }) => {
+const ProductItem = ({ product, index }) => {
   return (
     <li className="list-item">
       <a href={product.URL}>
         <div className="product-item">
           <div className="product-item--image">
             <img
-              src={`https://source.unsplash.com/random/200x200?${product.id}`}
+              src={`https://source.unsplash.com/random/140x180?${index}`}
               alt={product.title}
             />
           </div>
