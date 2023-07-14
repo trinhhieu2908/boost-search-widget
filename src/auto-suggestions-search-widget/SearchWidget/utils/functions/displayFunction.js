@@ -23,12 +23,10 @@ export const onDisplaySearchWidget = (inputId, widgetId, position) => {
     }
   }
   setWidgetPosition();
-  window.addEventListener("resize", setWidgetPosition);
+  window.addEventListener("resize", setWidgetPosition);  
 };
 
 export const onHideSearchWidget = (widgetId) => {
   const widget = document.getElementById(widgetId);
   widget.classList.remove("active");
 };
-
-export const detectScreenChange = () => {};

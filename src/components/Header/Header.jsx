@@ -1,6 +1,7 @@
 import { useState } from "react";
 import SearchInput from "../SearchInput/SearchInput";
 import SearchWidget from "../../auto-suggestions-search-widget/SearchWidget/SearchWidget";
+import { positionStyle } from "../../auto-suggestions-search-widget/SearchWidget/utils/constants/widgetPosition";
 
 const Header = () => {
   const [searchValue, setSearchValue] = useState("");
@@ -25,6 +26,7 @@ const Header = () => {
         <SearchWidget
           inputId="app-search-input"
           widgetId="app-search-widget"
+          position={positionStyle.Right}
           searchString={searchValue}
         />
       </div>

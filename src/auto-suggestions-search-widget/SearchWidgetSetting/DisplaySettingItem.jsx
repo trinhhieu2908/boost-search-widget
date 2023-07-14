@@ -5,7 +5,6 @@ import { useDispatch } from "react-redux";
 const DisplaySettingItem = ({ name, isDisplay, action }) => {
   const dispatch = useDispatch();
   const onChangeSwitch = (checked) => {
-    console.log(checked)
     dispatch({type: action.type, payload: checked});
   };
   return (

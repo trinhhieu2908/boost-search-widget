@@ -12,7 +12,6 @@ export const settingSlice = createSlice({
   initialState,
   reducers: {
     toggleSuggestionSetting: (state, { payload }) => {
-      console.log(payload);
       state.isSuggestionDisplay = payload;
     },
     toggleCollectionSetting: (state, { payload }) => {
@@ -22,7 +21,6 @@ export const settingSlice = createSlice({
       state.isProductDisplay = payload;
     },
     setNumberOfCharacter: (state, { payload }) => {
-      console.log(payload);
       state.numberOfCharacter = payload;
     },
   },

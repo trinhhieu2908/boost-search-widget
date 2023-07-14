@@ -11,7 +11,12 @@ import {
 import { useEffect } from "react";
 import { positionStyle } from "./utils/constants/widgetPosition";
 
-const SearchWidget = ({ inputId, widgetId, position = positionStyle.Left, searchString }) => {
+const SearchWidget = ({
+  inputId,
+  widgetId,
+  position = positionStyle.Left,
+  searchString,
+}) => {
   const { data, error } = useGetSuggestionResult(searchString);
   const isSuggestionDisplay = useSelector(
     settingsSelectors.getIsSuggestionDisplay
@@ -28,6 +33,23 @@ const SearchWidget = ({ inputId, widgetId, position = positionStyle.Left, search
     } else {
       onHideSearchWidget(widgetId);
     }
+
+    function showWidget(event) {
+      const targetEl = event.target;
+      const parentEl = targetEl.parentElement;
+      if (targetEl === null && parentEl === null) {
+        return;
+      }
+      if (targetEl?.id === inputId || parentEl?.id === inputId) {
+        if (searchString.length >= numberOfCharacter.value) {
+          onDisplaySearchWidget(inputId, widgetId, position);
+        }
+      } else {
+        onHideSearchWidget(widgetId);
+      }
+    }
+    window.addEventListener("click", showWidget);
+    return () => window.removeEventListener("click", showWidget);
   }, [searchString, numberOfCharacter]);
 
   let content = (
